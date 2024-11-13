@@ -1,0 +1,15 @@
+/* src/components/components.css */
+
+.content {
+  display: flex; /* Use flexbox to arrange children side by side */
+  flex: 1; /* Allow the content area to grow and fill the space */
+  gap: 20px; /* Space between left and right sections */
+  padding: 20px; /* Padding around the content */
+}
+
+.left-side, .right-side {
+  flex: 1; /* Each side takes up equal space */
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in width calculation */
+  border-radius: 8px; /* Rounded corners for sides */
+}
